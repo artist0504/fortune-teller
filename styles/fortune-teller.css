@@ -1,4 +1,4 @@
-img {
+#magic-8-ball {
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -7,5 +7,22 @@ img {
 }
 
 body {
-    background-color: #87376a;
+    background-color: #bb639b;
+}
+
+#input-container,
+#fortune-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input,
+button,
+h3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
