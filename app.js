@@ -40,9 +40,15 @@ const fortune = document.getElementById('fortune');
 askButton.addEventListener('click', () => {
     const randNum = Math.floor(Math.random() * answers.length);
     fortune.textContent = answers[randNum];
+
+    inputContainer.classList.toggle('hide');
+    fortuneContainer.classList.toggle('hide');
 });
 
 resetButton.addEventListener('click', () => {
     const randNum = Math.floor(Math.random() * answers.length);
     fortune.textContent = answers[randNum];
+
+    inputContainer.classList.toggle('hide');
+    fortuneContainer.classList.toggle('hide');
 });
